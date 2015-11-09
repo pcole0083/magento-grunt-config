@@ -1,0 +1,37 @@
+{
+    // JSHint Configuration File
+    // See http://jshint.com/docs/ for more details
+
+    "maxerr"        : 100,       // {int} Maximum error before stopping
+
+    // Enforcing
+    "bitwise"       : false,    // true: Prohibit bitwise operators (&, |, ^, etc.)
+    "curly"         : false,     // true: Require {} for every new block or scope
+    "indent"        : 4,        // {int} Number of spaces to use for indentation
+    "plusplus"      : false,    // true: Prohibit use of `++` & `--`
+    "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
+    "unused"        : true,     // true: Require all defined variables be used
+    "strict"        : true,     // true: Requires all functions run in ES5 Strict Mode
+    "sub"           : true,     // true: Tolerate using `[]` notation when it can still be expressed in dot notation
+    "validthis"     : true,     // true: Tolerate using this in a non-constructor function
+
+    // Environments
+    "browser"       : true,     // Web Browser (window, document, etc)
+    "devel"         : false,     // Development/debugging (alert, confirm, etc)
+    "jquery"        : true,    // jQuery
+    "nonstandard"   : false,    // Widely adopted globals (escape, unescape, etc)
+    "prototypejs"   : false,    // Prototype and Scriptaculous
+
+    // Custom Globals
+    "globals"       : { // additional predefined global variables
+        "Modernizr" : true,
+        "wp"        : true,
+        "console"   : true,
+        "alert"     : true,
+        "confirm"   : true,
+        "process"   : true,
+        "module"    : true,
+        "pkg"       : true,
+        "require"   : true
+    }
+}

@@ -1,0 +1,1 @@
+# magento grunt config
